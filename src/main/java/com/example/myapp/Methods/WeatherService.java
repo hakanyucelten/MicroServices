@@ -13,10 +13,11 @@ import java.util.Set;
 public class WeatherService {
 
     private static final String WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    private static final String API_KEY = "d8d6cced2e90d9b8da541636e2b47cd8"; // Replace with your actual API key
+    private static final String API_KEY = "apikey"; // Replace with your actual API key
     private static final Set<String> AUTHORIZED_TOKENS = new HashSet<>(Arrays.asList(
             "SGFrYW46c2VjcmV0S2V5XzY5NDg5MTgz",
             "SGFydW46c2VjcmV0S2V5XzY5NDk2NTMw",
+            "SGFydW46c2VjcmV0S2V5XzY5NDk2NTyp",
             "QWhtZXQ6c2VjcmV0S2V5XzYzMjM1MTI1"
     ));
 
